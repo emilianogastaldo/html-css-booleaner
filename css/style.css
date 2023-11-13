@@ -1,7 +1,6 @@
 /* Controllo che abbia collegato style.css a index.html*/
 body{
     margin: 0;
-    background-color: lightcoral;
 }
 /* creo un contenitore per dare inscatolare il tutto*/
 .conteiner{
@@ -15,7 +14,7 @@ header{
     background-color: cornflowerblue;
     background-image: url('../img/pattern.png');    
     background-size: 45%;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 #logo{
     width: 25%;
