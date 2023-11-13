@@ -49,3 +49,7 @@ span{
     background-color: yellow;
     font-size: medium;
 }
+
+ul{
+    padding-left: 12px;
+}
