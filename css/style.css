@@ -44,3 +44,8 @@ span{
 .description{
     font-size: smaller;
 }
+
+.evidenziato{
+    background-color: yellow;
+    font-size: medium;
+}
