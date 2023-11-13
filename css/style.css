@@ -10,7 +10,7 @@ body{
 
 /*creo il logo*/
 header{
-    height: 130px;
+    height: 100px;
     max-width: 100%;
     background-color: cornflowerblue;
     background-image: url('../img/pattern.png');   
@@ -19,7 +19,7 @@ header{
     background-repeat:repeat;
 }
 #logo{
-    width: 250px;
+    width: 200px;
     margin-left: 0;
     margin-top: 30px;
 
@@ -28,7 +28,7 @@ header{
 /*Creo il titolo più foto e descrizioni delle foto*/
 h1{
     margin-bottom: 0;
-    font-size: 2.5rem;
+    font-size: 38px;
 }
 figure{
     margin-left: 0;
@@ -36,16 +36,16 @@ figure{
 }
 .author{
     color: gray;
-    font-size: larger;
+    font-size: large;
 }
 a{
     text-decoration: none;
 }
 span{
-    font-size: smaller;
+    font-size: x-small;
 }
 .description{
-    font-size: smaller;
+    font-size: x-small;
 }
 /*creo l'evidenziatura*/
 .evidenziato{
