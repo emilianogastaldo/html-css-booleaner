@@ -43,12 +43,27 @@ span{
 .description{
     font-size: smaller;
 }
-
+/*creo l'evidenziatura*/
 .evidenziato{
     background-color: yellow;
     font-size: medium;
 }
-
+/*creo la lista*/
 ul{
     padding-left: 12px;
 }
+/*creo la tabella*/
+table{
+    border-collapse: collapse;
+}
+#speciale{
+    width: 50%;
+
+}
+th{
+    width: 25%;
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+tr:nth-child(odd){background-color:lightblue}
