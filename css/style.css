@@ -67,3 +67,19 @@ th{
     color: white;
 }
 tr:nth-child(odd){background-color:lightblue}
+
+/*footer*/
+.foto{
+    position: relative;
+}
+h2{
+    color: gray;
+}
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
