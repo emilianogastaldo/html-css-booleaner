@@ -1,22 +1,46 @@
+/* Controllo che abbia collegato style.css a index.html*/
 body{
     margin: 0;
     background-color: lightcoral;
 }
+/* creo un contenitore per dare inscatolare il tutto*/
 .conteiner{
     max-width: 1080px;
     margin: 0 auto;
 }
 
-
+/*creo il logo*/
 header{
-    height: 150px;
-    background-image: url('../img/pattern.png');
+    height: 130px;
     background-color: cornflowerblue;
+    background-image: url('../img/pattern.png');    
     background-size: 45%;
+    background-attachment: fixed;
 }
-
 #logo{
     width: 25%;
+    margin-left: 0;    
+}
+/*Inizio il main*/
+/*Creo il titolo più foto e descrizioni delle foto*/
+h1{
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+figure{
     margin-left: 0;
-    
+    margin-bottom: 0;
+}
+.author{
+    color: gray;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-size: smaller;
+}
+.description{
+    font-size: smaller;
 }
