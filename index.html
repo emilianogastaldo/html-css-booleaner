@@ -10,83 +10,81 @@
 </head>
 <body>
     <div class="conteiner">
-        <header>
+        <header id="main-header">
             <img id="logo" src="img/logo.svg" alt="Logo Booleaner">
         </header>
         <main>
-            <section>
-                <!--Intestazione-->            
-                <h1>Internet deve essere al sevizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
-                <div class="author">Scritto da <a href="https://www.google.it/">The Booleaner</a> <br>
-                <span>il 10/10/2020</span>
-                </div>
-                <figure>
+              <!--Intestazione-->
+            <article>
+                <header class="article-header">
+                    <h1>Internet deve essere al sevizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
+                    <address class="text-gray">Scritto da <a href="#">The Booleaner</a></address>
+                    <time class="text-gray text-small" datetime="2020-10-10">il 10/10/2020</time>                
+                </header>
+                <figure class="article-picture">
                     <img src="img/tim-1.jpg" alt="John S. and James L." title="John S. and James L.">
                     <img src="img/tim-2.jpg" alt="Tim Berners Lee" title="Tim Berners Lee">
-                </figure>
-                <div class="description">
-                    1st photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
-                    2nd photo: Tim Berners Lee, by Paul Clarke
-                </div>
+                    <figcaption class="text-small">
+                        1st photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
+                        2nd photo: Tim Berners Lee, by Paul Clarke
+                    </figcaption>
+                </figure>    
+            </article>            
+                
+            <!--Creo l'articolo-->    
+            <section id="article-content">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa perspiciatis numquam repudiandae saepe optio corrupti. Maiores molestias fugit quisquam, quas, ipsam nobis explicabo dolorem eius iure totam accusamus, quasi enim.
+                    Aut enim error, quisquam id sed omnis veniam commodi fugiat veritatis non qui ullam vitae, accusamus sapiente excepturi recusandae eaque pariatur fuga nam nihil. <mark>Animi quisquam tempore neque officiis dolorem.</mark>Maiores placeat, perspiciatis blanditiis quas nemo alias eveniet. Temporibus modi, ipsam nostrum omnis animi eos. Quo perferendis voluptas dolor quas quod esse consequatur quisquam accusantium inventore suscipit! Unde, minima eius.
+                </p>
+                <!--Creo la lista-->
+                <ul>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque unde incidunt, beatae illum.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque unde incidunt, beatae illum.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque unde incidunt, beatae illum.</li>
+                </ul>
+                <!--Creo la tabella-->
+                <table>
+                    <thead>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                        <th class="width50">Lorem ipsum dolor</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam cum voluptate debitis. Repellat fuga, fugiat dolore quos autem saepe suscipit voluptatibus at obcaecati nostrum odit. Tenetur id minima tempore.</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam cum voluptate debitis. Repellat fuga, fugiat dolore quos autem saepe suscipit voluptatibus at obcaecati nostrum odit. Tenetur id minima tempore.</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam cum voluptate debitis. Repellat fuga, fugiat dolore quos autem saepe suscipit voluptatibus at obcaecati nostrum odit. Tenetur id minima tempore.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa perspiciatis numquam repudiandae saepe optio corrupti. Maiores molestias fugit quisquam, quas, ipsam nobis explicabo dolorem eius iure totam accusamus, quasi enim.
+                    Aut enim error, quisquam id sed omnis veniam commodi fugiat veritatis non qui ullam vitae, accusamus sapiente excepturi recusandae eaque pariatur fuga nam nihil. <mark>Animi quisquam tempore neque officiis dolorem.</mark>Maiores placeat, perspiciatis blanditiis quas nemo alias eveniet. Temporibus modi, ipsam nostrum omnis animi eos. Quo perferendis voluptas dolor quas quod esse consequatur quisquam accusantium inventore suscipit! Unde, minima eius.
+                </p>            
             </section>
 
-            <section>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa perspiciatis numquam repudiandae saepe optio corrupti. Maiores molestias fugit quisquam, quas, ipsam nobis explicabo dolorem eius iure totam accusamus, quasi enim.
-                    Aut enim error, quisquam id sed omnis veniam commodi fugiat veritatis non qui ullam vitae, accusamus sapiente excepturi recusandae eaque pariatur fuga nam nihil. <span class="evidenziato">Animi quisquam tempore neque officiis dolorem.</span>
-                    Maiores placeat, perspiciatis blanditiis quas nemo alias eveniet. Temporibus modi, ipsam nostrum omnis animi eos. Quo perferendis voluptas dolor quas quod esse consequatur quisquam accusantium inventore suscipit! Unde, minima eius.
-                </p>
-            </section>
-            <!--Crep la lista-->
-            <ul>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque unde incidunt, beatae illum, voluptate non cumque possimus quam quod hic animi soluta et dicta, natus molestias iste voluptates vero?</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque unde incidunt, beatae illum, voluptate non cumque possimus quam quod hic animi soluta et dicta, natus molestias iste voluptates vero?</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque unde incidunt, beatae illum, voluptate non cumque possimus quam quod hic animi soluta et dicta, natus molestias iste voluptates vero?</li>
-            </ul>
-            <!--Creo la tabella-->
-            <table>
-                <thead>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                    <th id="speciale">Lorem ipsum dolor</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam cum voluptate debitis. Repellat fuga, fugiat dolore quos autem saepe suscipit voluptatibus at obcaecati nostrum odit. Tenetur id minima tempore.</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam cum voluptate debitis. Repellat fuga, fugiat dolore quos autem saepe suscipit voluptatibus at obcaecati nostrum odit. Tenetur id minima tempore.</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam cum voluptate debitis. Repellat fuga, fugiat dolore quos autem saepe suscipit voluptatibus at obcaecati nostrum odit. Tenetur id minima tempore.</td>
-                    </tr>
-                </tbody>
-            </table>
-            <section>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa perspiciatis numquam repudiandae saepe optio corrupti. Maiores molestias fugit quisquam, quas, ipsam nobis explicabo dolorem eius iure totam accusamus, quasi enim.
-                    Aut enim error, quisquam id sed omnis veniam commodi fugiat veritatis non qui ullam vitae, accusamus sapiente excepturi recusandae eaque pariatur fuga nam nihil. <span class="evidenziato">Animi quisquam tempore neque officiis dolorem.</span>
-                    Maiores placeat, perspiciatis blanditiis quas nemo alias eveniet. Temporibus modi, ipsam nostrum omnis animi eos. Quo perferendis voluptas dolor quas quod esse consequatur quisquam accusantium inventore suscipit! Unde, minima eius.
-                </p>
-            </section>
-            <footer>
-                <h2>Potrebbero interessarti</h2>
-                <div class="foto">
-                    <img src="img/monitor.jpg" alt="monitor">
-                    <div  class="topleft">Lorem ipsum dolor</div>
+            <aside>
+                <!--articoli interessanti-->
+                <h2 class="text-gray">Potrebbero interessarti</h2>
+                <div class="related-article" id="monitor">
+                    <h4 class="related-article-title">Lorem Ipsum Dolor</h4>
                 </div>
-                <div class="foto">
-                    <img src="img/graph.jpg" alt="monitor">
-                    <div class="topleft">Lorem ipsum dolor</div>
-                </div>
-                
-            </footer>
+                <div class="related-article" id="graph">
+                    <h4 class="related-article-title">Lorem Ipsum Dolor</h4>
+                </div>                
+            </aside>
         </main>
 
     </div>

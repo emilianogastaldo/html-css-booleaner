@@ -1,89 +1,93 @@
-/* Controllo che abbia collegato style.css a index.html*/
-body{
+/*Reset CSS*/
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* creo un contenitore per dare inscatolare il tutto*/
+/*utilities*/
 .conteiner{
     max-width: 1080px;
     margin: 0 auto;
 }
+.text-gray{
+    color: gray;
+}
+.text-small{
+    font-size: small;
+}
+p{
+    margin: 15px 0;
+}
+.width50{
+    width: 50%;
 
-/*creo il logo*/
-header{
+}
+/*creo il logo - header*/
+#main-header{
     height: 100px;
-    max-width: 100%;
     background-color: cornflowerblue;
     background-image: url('../img/pattern.png');   
-    background-size:auto;
-    background-position: center;
-    background-repeat:repeat;
+    background-size: 30%;
+    line-height: 100px;
 }
 #logo{
-    width: 200px;
-    margin-left: 0;
-    margin-top: 30px;
-
+    height: 50px;
+    width: auto;
+    vertical-align: middle;    
 }
 /*Inizio il main*/
 /*Creo il titolo più foto e descrizioni delle foto*/
 h1{
+    margin-top: 15px;
     margin-bottom: 0;
     font-size: 38px;
 }
-figure{
-    margin-left: 0;
-    margin-bottom: 0;
+address{
+    font-style: normal;
 }
-.author{
-    color: gray;
-    font-size: large;
-}
+
 a{
     text-decoration: none;
 }
-span{
-    font-size: x-small;
-}
-.description{
-    font-size: x-small;
-}
-/*creo l'evidenziatura*/
-.evidenziato{
-    background-color: yellow;
-    font-size: medium;
+
+.article-picture{
+    margin: 20px 0;
 }
 /*creo la lista*/
 ul{
-    padding-left: 12px;
+    list-style-position: inside;
+    padding-inline-start: 0;
+    margin: 15px 0;
 }
 /*creo la tabella*/
 table{
     border-collapse: collapse;
 }
-#speciale{
-    width: 50%;
-
-}
 th{
-    width: 25%;
     text-align: left;
     background-color: blue;
     color: white;
 }
 tr:nth-child(odd){background-color:lightblue}
 
-/*footer*/
-.foto{
-    position: relative;
+/*aside, parte finale*/
+.related-article{
+    width: 200px;
+    height: 150px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0;
+    padding: 10px;
 }
-h2{
-    color: gray;
+#monitor{
+    background-image: url('../img/monitor.jpg');
 }
-.topleft {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-    font-weight: bold;
+#graph{
+    background-image: url('../img/graph.jpg');
+}
+.related-article-title{
     color: white;
-  }
+    font-size: 1.2rem;
+}
